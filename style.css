@@ -48,7 +48,3 @@ p {
   background-color: white;
 }
 
-.sudoku-subgrid {
-  border-right: 1px solid yellow;
-  border-bottom: 1px solid yellow;
-}
