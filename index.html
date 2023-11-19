@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <html>
+    <head>
+      <title>SUDOKU ARAYÜZÜ</title>
+    </head>
+    <body>
+      <h1>SUDOKU</h1>
+
+      <div class="sudoku-outline">
+        <div id="sudoku-container">
+          <table class="sudoku-board">
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">5</td>
+              <td class="sudoku-cell sudoku-subgrid">3</td>
+              <td class="sudoku-cell sudoku-subgrid">4</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">6</td>
+              <td class="sudoku-cell sudoku-subgrid">7</td>
+              <td class="sudoku-cell sudoku-subgrid">2</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">1</td>
+              <td class="sudoku-cell sudoku-subgrid">9</td>
+              <td class="sudoku-cell sudoku-subgrid">8</td>
+            </tr>
+          </table>
+
+          <table class="sudoku-board">
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">6</td>
+              <td class="sudoku-cell sudoku-subgrid">7</td>
+              <td class="sudoku-cell sudoku-subgrid">8</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">1</td>
+              <td class="sudoku-cell sudoku-subgrid">9</td>
+              <td class="sudoku-cell sudoku-subgrid">5</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">3</td>
+              <td class="sudoku-cell sudoku-subgrid">4</td>
+              <td class="sudoku-cell sudoku-subgrid">2</td>
+            </tr>
+          </table>
+
+          <table class="sudoku-board">
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">9</td>
+              <td class="sudoku-cell sudoku-subgrid">1</td>
+              <td class="sudoku-cell sudoku-subgrid">2</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">3</td>
+              <td class="sudoku-cell sudoku-subgrid">4</td>
+              <td class="sudoku-cell sudoku-subgrid">8</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">5</td>
+              <td class="sudoku-cell sudoku-subgrid">6</td>
+              <td class="sudoku-cell sudoku-subgrid">7</td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="sudoku-container">
+          <table class="sudoku-board">
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">8</td>
+              <td class="sudoku-cell sudoku-subgrid">5</td>
+              <td class="sudoku-cell sudoku-subgrid">9</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">4</td>
+              <td class="sudoku-cell sudoku-subgrid">2</td>
+              <td class="sudoku-cell sudoku-subgrid">6</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">7</td>
+              <td class="sudoku-cell sudoku-subgrid">1</td>
+              <td class="sudoku-cell sudoku-subgrid">3</td>
+            </tr>
+          </table>
+
+          <table class="sudoku-board">
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">7</td>
+              <td class="sudoku-cell sudoku-subgrid">6</td>
+              <td class="sudoku-cell sudoku-subgrid">1</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">8</td>
+              <td class="sudoku-cell sudoku-subgrid">5</td>
+              <td class="sudoku-cell sudoku-subgrid">3</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">9</td>
+              <td class="sudoku-cell sudoku-subgrid">2</td>
+              <td class="sudoku-cell sudoku-subgrid">4</td>
+            </tr>
+          </table>
+
+          <table class="sudoku-board">
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">4</td>
+              <td class="sudoku-cell sudoku-subgrid">2</td>
+              <td class="sudoku-cell sudoku-subgrid">3</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">7</td>
+              <td class="sudoku-cell sudoku-subgrid">9</td>
+              <td class="sudoku-cell sudoku-subgrid">1</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">8</td>
+              <td class="sudoku-cell sudoku-subgrid">5</td>
+              <td class="sudoku-cell sudoku-subgrid">6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="sudoku-container">
+          <table class="sudoku-board">
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">9</td>
+              <td class="sudoku-cell sudoku-subgrid">6</td>
+              <td class="sudoku-cell sudoku-subgrid">1</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">2</td>
+              <td class="sudoku-cell sudoku-subgrid">8</td>
+              <td class="sudoku-cell sudoku-subgrid">7</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">3</td>
+              <td class="sudoku-cell sudoku-subgrid">4</td>
+              <td class="sudoku-cell sudoku-subgrid">5</td>
+            </tr>
+          </table>
+
+          <table class="sudoku-board">
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">5</td>
+              <td class="sudoku-cell sudoku-subgrid">3</td>
+              <td class="sudoku-cell sudoku-subgrid">7</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">4</td>
+              <td class="sudoku-cell sudoku-subgrid">1</td>
+              <td class="sudoku-cell sudoku-subgrid">9</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">2</td>
+              <td class="sudoku-cell sudoku-subgrid">8</td>
+              <td class="sudoku-cell sudoku-subgrid">6</td>
+            </tr>
+          </table>
+
+          <table class="sudoku-board">
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">2</td>
+              <td class="sudoku-cell sudoku-subgrid">8</td>
+              <td class="sudoku-cell sudoku-subgrid">4</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">6</td>
+              <td class="sudoku-cell sudoku-subgrid">3</td>
+              <td class="sudoku-cell sudoku-subgrid">5</td>
+            </tr>
+
+            <tr class="sudoku-row">
+              <td class="sudoku-cell sudoku-subgrid">1</td>
+              <td class="sudoku-cell sudoku-subgrid">7</td>
+              <td class="sudoku-cell sudoku-subgrid">9</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <p>Hazırlayan: Zümra Küçükbezirci</p>
+    </body>
+  </html>
+</html>
