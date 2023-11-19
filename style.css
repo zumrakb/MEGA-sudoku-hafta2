@@ -36,9 +36,7 @@ p {
     box-shadow: 0px 2px 41px -25px #ffef63;
 }
 
-.sudoku-row {
-  border: 2px solid yellow;
-}
+
 
 .sudoku-cell {
   width: 55px;
